@@ -6,6 +6,7 @@
     "react-scripts": "0.7.0"
   },
   "dependencies": {
+    "gh-pages": "^0.12.0",
     "react": "^15.4.1",
     "react-dom": "^15.4.1"
   },
@@ -13,9 +14,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "homepage": "https://github.com/Shahor/very-word"
 }
